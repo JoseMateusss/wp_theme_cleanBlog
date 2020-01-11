@@ -29,7 +29,7 @@
           <!-- Pager -->
           <div class="clearfix">
             <div class="botao btnPrevious"><?php previous_posts_link("Página Anterior"); ?></div>
-            <div class="botao btNext"><?php next_posts_link("Próxima Página"); ?></div>
+            <div class="botao btnNext"><?php next_posts_link("Próxima Página"); ?></div>
 
             <!--<a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a> -->
           </div>

@@ -12,22 +12,19 @@
  }
 
 .botao a {
-	text-decoration: none;
-	font-weight: 400;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    border: 1px solid transparent;
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    border-radius: .25rem;
-    transition: color .15s;
+	font-size: 14px;
+    font-weight: 800;
+    padding: 15px 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 0;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
     color: #fff;
-    background-color: #007bff;
-    border-color: #007bff
+    background-color: #0085a1;
+    border-color: #0085a1;
+    text-decoration: none;
+}
+.botao a:hover{
+	background-color: #007bff;
+    border-color: #007bff;
 }
